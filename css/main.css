@@ -10,21 +10,15 @@
       }
 
         body {
-            background-color: "#FFFFFF" ;
-            margin-left: "0";
-            margin-top: "0";
+           background: #fff;
+            margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f4f4; 
         }
-
-
-
-
-
 
         main {
             display: flex;
-            min-height: 80vh;
+            min-height: 100vh; /* Ovo tera main da bude visine celog prozora */
+align-content: center;
         }
         nav {
             background: #ADB5CC;
@@ -57,16 +51,48 @@
         }
         .content {
             flex: 1;
-            padding: 2rem;
+            padding: 0;
             background: #fff;
+            text-align: center;
         }
         footer {
-            background: #222;
+            background: #0078d7;
             color: #fff;
             text-align: center;
             padding: 1rem;
             margin-top: 1rem;
         }
+
+   
+
+.home_naslov_pionir {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D83B1;
+}
+
+.home_naslov_doo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.home_naslov_adresa {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.jezik_gore_desno:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ADB5CC;
+    text-decoration: none;
+}        
         .jezik_gore_desno {
             font-family: Verdana, Arial, Helvetica, sans-serif;
             font-size: 10px; 
@@ -76,10 +102,270 @@
             position: absolute;
           padding: auto;
             color: white;
-              top: 60px;       /* koliko da bude spušten odozgo */
+              top: 52px;       /* koliko da bude spušten odozgo */
             right: 20px;     /* distanca od desne ivice */
 
-
-            }
  
-        
+            }
+
+.jezik_gore_desno:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.jezik_gore_desno:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ADB5CC;
+    text-decoration: none;
+} 
+
+.txt_rubrike {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #222222;
+    text-align: left;
+}
+.txt_rubrika_naslov {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #546176;
+    font-weight: bold;
+    text-decoration: none;
+}
+.txt_rubrika_naslov:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #2A5AD0;
+    font-weight: bold;
+    text-decoration: none;
+}
+.txt_rubrika_VELIKI {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #404A5A;
+    font-weight: bold;
+}
+.txt_rubrike_podnaslov {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #546176;
+    font-weight: bold;
+}
+.kontakt_adresa {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+.kontakt_txt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+.smd {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    color: #FF0000;
+    clip: rect();
+}
+.txt_rubrike_highlight {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #2A5AD0;
+    font-weight: bold;
+}
+.txt_rubrike_zeleno_karak {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #008080;
+    font-weight: bold;
+    font-style: italic;
+}
+.home_naslov_email {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2A5AD0;
+}
+.txt_rubrike_just {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #222222;
+    text-align: justify;
+}
+
+.detaljnije {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #3264ff;
+    text-decoration: none;
+    font-weight: bold;
+    right: 20px;
+}
+.detaljnije:active,
+.detaljnije:visited,
+.detaljnije:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #3264ff;
+    text-decoration: none;
+}
+.detaljnije:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.brd_1px {
+    border: #000000 solid 1px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.txt_rubrike_podnaslov_usluge {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+.okvir1pxplavi {
+    border: 1px solid #000099;
+}
+.bledosivo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #BBBBBB;
+}
+
+.przvdnavtxt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #CC0055;
+    text-decoration: none;
+}
+.przvdnavtxt:active,
+.przvdnavtxt:visited,
+.przvdnavtxt:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #CC0055;
+    text-decoration: none;
+}
+.przvdnavtxt:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.przvd_naslov {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #3264FF;
+    font-weight: bold;
+}
+.przvd_klasa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    font-style: italic;
+}
+.przvd_podnaslov {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #CC0000;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+}
+.przvd_podnaslov:active,
+.przvd_podnaslov:visited,
+.przvd_podnaslov:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #CC0000;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+}
+.przvd_podnaslov:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.przvd_pdf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #D00000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+.przvd_pdf:active,
+.przvd_pdf:visited,
+.przvd_pdf:link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #D00000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+.przvd_pdf:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.przvd_pdf_alt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #329664;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.VECE {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.txt_rubrike_link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #C00000;
+}
+.txt_rubrike_link:active,
+.txt_rubrike_link:visited,
+.txt_rubrike_link:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #C00000;
+}
+.txt_rubrike_link:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FF0000;
+}
