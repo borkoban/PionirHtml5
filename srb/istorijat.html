@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="fonts\DS-DIGI.TTF"> -->
+    <link rel="stylesheet" href="../css/main.css">
+    
+    <style>
+
+    </style>
+</head>
+<body>
+  <header>
+   
+        <table style= "width:100%; height:68px; border-collapse: collapse; border: 0; margin:0; padding:0;">
+        <tr>
+        <td style="width:520px; background:url('../img/top03_salogo.jpg'); text-align:right; "></td>
+        <td style="background:url('../img/top03_ponavljanje.gif'); 
+        vertical-align:bottom; ">
+            <table style="border:0; border-collapse:collapse;" cellpadding="5">
+            <tr>
+                <td style="text-align:right;">
+                <a id="lang-switch" href="../eng/index.htm" class="jezik_gore_desno" target="_top">jezik&nbsp;&nbsp;</a>
+                </td>
+            </tr>
+            </table>
+        </td>
+        </tr>
+        </table>
+  
+
+  </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="../srb/istorijat.html">ISTORIJAT</a></li>
+                <li><a href="../srb/profil.html">PROFIL</a></li>
+                <li><a href="../srb/proizvodi.html">PROIZVODI</a></li>
+                <li><a href="../srb/usluge.html">USLUGE</a></li>
+                <li><a href="../srb/reference.html">REFERENCE</a></li>
+                <li><a href="../srb/kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+<!-- <center> -->
+        <div class="content">
+
+<p><span class="home_naslov_pionir">Ei Pionir UKT</span><br>
+<span class="home_naslov_doo">D.O.O. za proizvodnju elektronskih uređaja</span></p>
+
+<div style="width: 400px; border: solid 1px #000066; background-color: #f0f0ff; padding: 10px; margin: 0 auto;">
+<p class="txt_rubrike" style="margin-bottom: -5px">
+    Sa Republičkom agencijom za telekomunikacije (RATEL) potpisan je ugovor o obavljanju ispitivanja i merenja u postupku tehničkog pregleda radio-stanica.</p>
+      <div style="text-align: right;"><a href="usluge/tehnicki/index.htm" target="_self" class="detaljnije">Detaljnije 
+        &gt;&gt;&gt;</a></div>
+</div>
+            <video controls autoplay muted loop width="500">
+            <source src="videos/ei08.mp4" type="video/mp4">
+            Vaš browser ne podržava video tag.
+            </video>
+
+<!-- </center> -->
+        <p class="home_naslov_adresa">Batajnički put 23, 11080 Zemun, Srbija<br>
+email: <a href="mailto:office@eipionirukt.co.rs" class="home_naslov_email">office@eipionirukt.co.rs</a></p>
+    </main>
+
+<script>
+  // Provera da li je trenutni URL engleski ili srpski
+  const langSwitch = document.getElementById('lang-switch');
+  const path = window.location.pathname.toLowerCase();
+
+  if (path.includes('/eng/')) {
+    langSwitch.textContent = 'Srpski 2';
+    langSwitch.href = '../index.html'; // ili putanja do srpske verzije
+  } else {
+    langSwitch.textContent = 'English 2';
+    langSwitch.href = '../eng/index.html'; // ili putanja do engleske verzije
+  }
+</script>
+</body>
+</html>
+
