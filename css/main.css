@@ -8,16 +8,23 @@
         font-family: 'MojFont';
         src: url('../fonts/DIGITALDREAM.ttf') format('truetype');
       }
+        html, body {
+        height: 100%;
+        }
 
         body {
            background: #fff;
             margin: 0;
             font-family: Arial, sans-serif;
+              min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         main {
             display: flex;
-            min-height: 100vh; /* Ovo tera main da bude visine celog prozora */
+            flex: 1;
+            /* min-height: 100vh; Ovo tera main da bude visine celog prozora */
 align-content: center;
         }
         nav {
