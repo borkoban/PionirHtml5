@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Yugoslavia, Jugoslavija, Srbija, Serbia, Beograd, Zemun, Belgrade, electro, electronics, elektro, elektornika, elektronski, Land Mobile Radio, Radio, radio stanice, radio stanica,radio-stanica,radio-stanice, tehnički pregled radio-stanica,tehnički pregled radio-stanice, tehnički pregled radio-uređaja,tehnički pregled linkova, Mobile, Manufacturer, proizvodnja, Manufacture, OEM, Transceiver, development, razvoj, kontrola saobracaja, saobracaj, Traffic control, traffic, RF, VHF, UHF, RFID, GPS, AVL, author Milos Tomic">
+<meta name="description" content="Ei Pionir UKT, Zemun / Belgrade, Serbia, Yugoslavia, Land Mobile Radio OEM and System Integrator. Designe, development and manufacturing of transceivers. Author Milos Tomic">
+<meta name="Author" content="Milos Tomic, tmilos@yahoo.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="top_nav">
+<tr> 
+<td class="top_nav" width="10">&nbsp;</td>
+<td class="top_nav" bgcolor="#ADB5CC">:: <a href="/index.html" target="_parent" class="top_nav">Home</a> <span class="top_nav_manjemanje">&gt;&gt;</span> <a href="/srb/usluge.html" class="top_nav" target="_parent">Usluge</a> 
+<span class="top_nav_manjemanje">&gt;&gt;</span> Integracija sistema</td>
+</tr>
+</table>
+    <main>
+
+        <div id="nav"></div>
+
+
+        <div class="content">
+<body bgcolor="#FFFFFF" text="#000000" class="txt_rubrike" leftmargin="15">
+<p class="txt_rubrika_VELIKI">Integracija sistema</p>
+<p class="txt_rubrike_just">Tokom dugogodišnjeg razvoja i proizvodnje u oblasti radio-komunikacija, u fabrici Ei Pionir UKT je projektovan i realizovan veliki broj razlièitih sistema, namenjenih pre svega 
+za daljinski nadzor i upravljanje odreðenim sredstvima. Brojnim realizacijama obuhvaæeni su, kako sistemi sa relativno malim brojem uèesnika i pojednostavljenim zahtevima, tako i vrlo kompleksni projekti 
+sa sofisticiranim funkcijama, ostvareni uz primenu potpuno originalnih rešenja.</p>
+<p class="txt_rubrike_just">Zajednièka karakteristika ovih sistema je obezbeðivanje prenosa podataka izmeðu fiksnih ili mobilnih uèesnika, uz korišæenje radio-kanala kao prenosnog puta. Najveæi broj sistema 
+koncipira se namenski, u saradnji sa struènim timovima naruèioca, èime se obezbeðuje potpuno poklapanje ostvarenih funkcionalnih karakteristika sa postavljenim zahtevima. </p>
+<p class="txt_rubrike_just">Kod jednog broja sistema, osnovu za realizaciju èini iskljuèivo oprema iz sopstvene proizvodnje, koja se sastoji od VHF/UHF radio-komunikacionih ureðaja, modema, terminala za 
+prikupljanje i obradu podataka i prateæe opreme, uz odgovarajuæu softversku podršku. Primer ovakvog sistema je ASU-2000 - Automatizovani sistem za upravljanje kretanjem javnog gradskog putnièkog saobraæaja.</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr align="center"> 
+<td width="50%"><img src="../../../img/usluge/integracija/img01_levo.jpg" width="280" height="234"></td>
+<td><img src="../../../img/usluge/integracija/img02_desno.jpg" width="300" height="234"></td>
+</tr>
+</table>
+<p class="txt_rubrike_just">Sistemi kod kojih se ostvarivanje zahteva efikasnije postiže primenom tehnologija koje nisu obuhvaæene proizvodnim programom fabrike, nalažu integraciju opreme poznatih svetskih 
+proizvoðaèa. Uz direktan kontakt sa timom za podršku na strani proizvoðaèa i originalan inženjerski pristup rešavanju konkretnih situacija, dolazi se do brze realizacije i ostvarivanja maksimalnih performansi 
+projektovanih sistema. Na ovaj naèin su koncipirani sistemi koji ukljuèuju korišæenje savremenih tehnologija (GPS - navigacioni prijemnici, RFID - èitaci i pasivni/aktivni tagovi, mikrotalasni linkovi koji 
+rade u tehnici proširenog spektra, itd.) na sasvim originalan naèin.</p>
+<p class="txt_rubrike" align="center"><a href="rfid.htm" onClick="W=MM_openBrWindow('rfid.htm','','status=yes,scrollbars=yes,resizable=yes,width=650,height=500'); W.moveTo(10,10); return false"><img src="../../../img/usluge/integracija/RFID_mala.jpg" width="215" height="250" alt="Kliknite da biste videli uvelicanu sliku" border="0"></a></p>
+<p align="center">Za sve informacije obratite se na<br>
+<a href="mailto:office@eipionirukt.co.rs">office@eipionirukt.co.rs</a><br>
+</p>
+
+</div>
+    </main>
+
+<script>
+fetch('/srb/header.html')
+  .then(response => response.text())
+  .then(data => {
+    const headerDiv = document.getElementById('header');
+    headerDiv.innerHTML = data;
+    // Pronađi i izvrši sve <script> tagove iz ubačenog header-a
+    headerDiv.querySelectorAll('script').forEach(oldScript => {
+      const newScript = document.createElement('script');
+      if (oldScript.src) {
+        newScript.src = oldScript.src;
+      } else {
+        newScript.textContent = oldScript.textContent;
+      }
+      document.body.appendChild(newScript);
+    });
+  });
+
+fetch('/srb/nav.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('nav').innerHTML = data;
+  });
+
+
+</script>
+</body>
+</html>
+

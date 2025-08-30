@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Yugoslavia, Jugoslavija, Srbija, Serbia, Beograd, Zemun, Belgrade, electro, electronics, elektro, elektornika, elektronski, Land Mobile Radio, Radio, radio stanice, radio stanica,radio-stanica,radio-stanice, tehnički pregled radio-stanica,tehnički pregled radio-stanice, tehnički pregled radio-uređaja,tehnički pregled linkova, Mobile, Manufacturer, proizvodnja, Manufacture, OEM, Transceiver, development, razvoj, kontrola saobracaja, saobracaj, Traffic control, traffic, RF, VHF, UHF, RFID, GPS, AVL, author Milos Tomic">
+    <meta name="description" content="Ei Pionir UKT, Zemun / Belgrade, Serbia, Yugoslavia, Land Mobile Radio OEM and System Integrator. Designe, development and manufacturing of transceivers. Author Milos Tomic">
+    <meta name="Author" content="Milos Tomic, tmilos@yahoo.com">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="header"></div>
+
+    <main>
+
+        <div id="nav"></div>
+
+<!-- <center> -->
+        <div class="content">
+<p class="txt_rubrika_VELIKI">Servis radio-ureðaja</p>
+<p class="txt_rubrike_just">Uporedo sa proizvodnjom radio-komunikacionih ureðaja i sistema, u fabrici Ei Pionir UKT je razvijan sektor za servisiranje proizvedene opreme. Tehnološki razvoj i osvajanje novih 
+proizvoda uspešno je praæen i u ovom sektoru, kako po pitanju snabdevenosti adekvatnom servisnom opremom, tako i u pogledu obuèenosti kadra.</p>
+<p class="txt_rubrike_just">Prvobitno zamišljen kao podrška za održavanje opreme iz sopstvene proizvodnje, sektor za servisiranje je vremenom širio svoju delatnost. Dugogodišnje iskustvo, uz posedovanje 
+specijalizovane merne opreme i tehnièke dokumentacije za veliki broj VHF/UHF radio-komunikacionih ureðaja, garantuju brz i efikasan remont kako sopstvenih proizvoda, tako i ureðaja mnogih svetski poznatih 
+proizvoðaèa (Motorola, Maxon, Midland, Icom, Yaesoo, Telemobile itd.).</p>
+<p class="txt_rubrike_just">Uz veæi broj mernih instrumenata razlièite namene, sektor za servisiranje je opremljen radio-komunikacionim mernim kompletima SCHLUMBERGER (tip Stabilok 4031), koji su pripremljeni 
+i za rad u terenskim uslovima. Uz pomoæ ovih kompleta vrši se kompletno podešavanje i merenje radio-parametara (ukljuèujuæi analizu spektra predajnika); merenje se vrši ruèno ili automatski, uz korišæenje 
+unapred pripremljenog programa na memorijskoj kartici. Direktno štampanje rezultata omoguæava preciznu evidenciju o rezultatima servisnih intervencija.</p>
+<p align="center"><img src="/img/usluge/servis/servis01.jpg" width="400" height="358" class="brd_1px"></p>
+<p class="txt_rubrike_just">Posedovanje odgovarajuæe merne opreme i sopstvenog voznog parka omoguæava servisiranje ureðaja, kako u laboratorijama fabrike Ei Pionir UKT, tako i na drugim lokacijama, po zahtevu 
+naruèioca.</p>
+<p align="center">Za sve informacije obratite se na<br>
+<span class="txt_rubrike_highlight"><a href="mailto:razvoj@eipionirukt.co.yu">office</a><a href="mailto:office@eipionirukt.co.rs">@eipionirukt.co.rs</a></span></p>
+
+</div>
+    </main>
+
+<script>
+fetch('/srb/header.html')
+  .then(response => response.text())
+  .then(data => {
+    const headerDiv = document.getElementById('header');
+    headerDiv.innerHTML = data;
+    // Pronađi i izvrši sve <script> tagove iz ubačenog header-a
+    headerDiv.querySelectorAll('script').forEach(oldScript => {
+      const newScript = document.createElement('script');
+      if (oldScript.src) {
+        newScript.src = oldScript.src;
+      } else {
+        newScript.textContent = oldScript.textContent;
+      }
+      document.body.appendChild(newScript);
+    });
+  });
+
+fetch('/srb/nav.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('nav').innerHTML = data;
+  });
+
+
+</script>
+</body>
+</html>
+
